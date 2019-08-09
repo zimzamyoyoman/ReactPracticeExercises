@@ -1,0 +1,11 @@
+.Machine {
+    color: #ABCABC;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
