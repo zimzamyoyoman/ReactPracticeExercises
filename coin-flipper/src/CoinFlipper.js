@@ -5,7 +5,7 @@ import './CoinFlipper.css'
 class CoinFlipper extends Component {
     constructor(props) {
         super(props);
-        this.state = { isHeads: true, numHeads: 0, numTails: 0, numFlips: 0 }
+        this.state = { isHeads: null, numHeads: 0, numTails: 0, numFlips: 0 }
         this.handleClick = this.handleClick.bind(this)
     }
 
@@ -17,7 +17,6 @@ class CoinFlipper extends Component {
                 : this.setState(curState => ({ isHeads: false, numTails: curState.numTails + 1, numFlips: curState.numFlips + 1 }))
         }
     }
-
 
     handleClick() {
         this.flipCoin();
