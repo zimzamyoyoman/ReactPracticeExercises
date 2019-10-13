@@ -1,0 +1,24 @@
+.VendingMachine {
+    background-image: url("./Jihanki.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VendingMachine-text {
+    margin: 5rem;
+    padding: 5rem;
+}
+
+.VendingMachine-list {
+    display: flex;
+    flex-direction: column;
+    /* width: 3rem; */
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
